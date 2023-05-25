@@ -188,3 +188,4 @@ In conclusion, simulating two traffic signals requires many steps to be implemen
 
 This project was designed and implemented by Joseph Yang in Spring 2022 for CSE241 at the University at Buffalo. Content in this repository is not to be reproduced or utilized without written authorization from the instructor, Dr. Winikus (jwinikus@buffalo.edu).
 # Traffic-Light
+# Traffic-Light
