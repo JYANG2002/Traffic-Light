@@ -1,4 +1,4 @@
-# Joseph Yang CSE241 Final Project
+# Joseph Yang Traffic Light Project
 
 ## Project Overview
 The purpose of this project create and implement a real-life scenario in this case, it would be controlling the traffic lights for the highway and the country road. We need to create our own Moore finite state machine to simulate a proper traffic light that shouldn't cause any vehicle collisions under the assumption the behavior of the driver is ideal and there are no external factors. Finally, we will implement and test it by using D-FlipFlops in our design and write SV code to simulate the same thing.
@@ -182,10 +182,3 @@ In order to know if the design is correct is to compare the log output from belo
 
 ## Conclusion
 In conclusion, simulating two traffic signals requires many steps to be implemented. We first have to indicate the design problem and filter out the unnecessary parts. Create a state diagram of which states exists and don't exist and somehow use the three inputs that determine the traffic lights. Create a state table from the diagram and turn it into a transition table. Create a transition equation from the table and use that to create a schematic using a D-FlipFlop. Implement the schematic and create the SV code to simulate the same thing. Overall the outcome of my project is somewhat successful in the way that all the requirements have been met but the actual implementation by putting it into a breadboard is troubling since somethings the LED bulb light up when it's supposed to be other time it doesn't.
-
-
-
-
-This project was designed and implemented by Joseph Yang in Spring 2022 for CSE241 at the University at Buffalo. Content in this repository is not to be reproduced or utilized without written authorization from the instructor, Dr. Winikus (jwinikus@buffalo.edu).
-# Traffic-Light
-# Traffic-Light
